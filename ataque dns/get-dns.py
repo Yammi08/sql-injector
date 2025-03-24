@@ -13,6 +13,5 @@ def main():
     port, ip = 53,'0.0.0.0';
     with UDPServer((ip,port),myUDPServer) as server:
         server.serve_forever();
-    T
 main()
 
